@@ -1426,6 +1426,10 @@ body.dark-mode .portfolio-item {
   color: #e0e0e0; /* Texto de los items del portafolio */
 }
 
+body.dark-mode #portfolio {
+  background-color: #1f1f1f; /* Fondo del footer */
+  color: #e0e0e0; /* Texto del footer */
+}
 body.dark-mode .portfolio-item .portfolio-info {
   background-color: rgba(
     0,
