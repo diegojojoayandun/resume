@@ -1374,7 +1374,7 @@ body.dark-mode {
 }
 
 body.dark-mode a {
-  color: #bb86fc; /* Color de los enlaces */
+  /* color: #bb86fc; Color de los enlaces */
 }
 
 body.dark-mode a:hover {
@@ -1384,12 +1384,12 @@ body.dark-mode a:hover {
 /* Navbar y encabezado */
 body.dark-mode .navbar,
 body.dark-mode #header {
-  background-color: #1f1f1f; /* Fondo de la navbar y header */
-  border-bottom: 1px solid #333; /* Borde inferior */
+  /* background-color: #1f1f1f; Fondo de la navbar y header */
+  /* border-bottom: 1px solid #333; Borde inferior */
 }
 
 body.dark-mode .navbar ul li a {
-  color: #e0e0e0; /* Texto de enlaces en la navbar */
+  /* color: #e0e0e0; Texto de enlaces en la navbar */
 }
 
 body.dark-mode .navbar ul li a:hover {
@@ -1398,7 +1398,7 @@ body.dark-mode .navbar ul li a:hover {
 
 /* Iconos de navegación y botones */
 body.dark-mode .bi {
-  color: #bb86fc; /* Color de los iconos */
+  /* color: #bb86fc; Color de los iconos */
 }
 
 body.dark-mode .bi:hover {
@@ -1441,18 +1441,18 @@ body.dark-mode .portfolio-lightbox {
 
 /* Progreso de habilidades */
 body.dark-mode .progress {
-  background-color: #333; /* Fondo de barra de progreso */
+  /* background-color: #333; Fondo de barra de progreso */
 }
 
 body.dark-mode .progress-bar {
-  background-color: #bb86fc; /* Color de barra de progreso */
+  background-color: #0563bb; /* Color de barra de progreso */
 }
 
 /* Botones */
 body.dark-mode .btn,
 body.dark-mode button {
-  background-color: #bb86fc; /* Fondo del botón */
-  color: #fff; /* Texto del botón */
+  /* background-color: #bb86fc; Fondo del botón */
+  /* color: #fff; Texto del botón */
   border: none; /* Sin borde */
 }
 
@@ -1483,6 +1483,14 @@ body.dark-mode .contact .php-email-form textarea:focus {
   border-color: #bb86fc; /* Borde al enfocar */
 }
 
+body.dark-mode .contact .info {
+  background-color: #1f1f1f;
+}
+
+body.dark-mode .contact .php-email-form {
+  background-color: #1f1f1f;
+}
+
 /* Footer */
 body.dark-mode #footer {
   background-color: #1f1f1f; /* Fondo del footer */
@@ -1507,8 +1515,8 @@ body.dark-mode #footer .social-links a:hover {
 
 /* Botón para volver al inicio */
 body.dark-mode .back-to-top {
-  background-color: #bb86fc; /* Fondo del botón de "volver arriba" */
-  color: #fff; /* Color del icono */
+  /* background-color: #bb86fc; Fondo del botón de "volver arriba" */
+  /* color: #fff; Color del icono */
 }
 
 body.dark-mode .back-to-top:hover {
