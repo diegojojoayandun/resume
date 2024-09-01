@@ -1498,7 +1498,7 @@ body.dark-mode #footer {
 }
 
 body.dark-mode #footer a {
-  color: #bb86fc; /* Enlaces del footer */
+  /* color: #bb86fc; Enlaces del footer */
 }
 
 body.dark-mode #footer a:hover {
@@ -1506,7 +1506,7 @@ body.dark-mode #footer a:hover {
 }
 
 body.dark-mode #footer .social-links a {
-  color: #bb86fc; /* Iconos sociales del footer */
+  /* color: #bb86fc; Iconos sociales del footer */
 }
 
 body.dark-mode #footer .social-links a:hover {
@@ -1520,7 +1520,7 @@ body.dark-mode .back-to-top {
 }
 
 body.dark-mode .back-to-top:hover {
-  background-color: #9a67ea; /* Fondo del botón al pasar el cursor */
+  /* background-color: #9a67ea; Fondo del botón al pasar el cursor */
 }
 
 /* Otros ajustes */
