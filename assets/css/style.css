@@ -1361,3 +1361,8 @@ section {
 .whatsapp-float:hover {
   background-color: #128c7e; /* Color de fondo al pasar el cursor */
 }
+
+.whatsapp-float:active {
+  transform: scale(0.9); /* Efecto de presión */
+  background-color: #075e54; /* Color temporal al hacer clic */
+}
