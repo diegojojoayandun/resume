@@ -2,7 +2,7 @@
 
 ![alt text](https://djojoa-personal-files.s3.sa-east-1.amazonaws.com/profile-pic.png)
 
-Pagina principal con informacón personal, tipo CV, donde se encuentra información relevente como programador web, habilidades, estudidos y proyectos.
+Pagina web tipo CV, donde se encuentra información relevante como programador web, habilidades, estudidos y proyectos.
 
 ## Lenguajes
 
