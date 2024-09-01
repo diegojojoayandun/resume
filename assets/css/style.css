@@ -1338,3 +1338,26 @@ section {
 .ftco-bg-dark {
   background: #3c312e;
 }
+
+.whatsapp-float {
+  position: fixed; /* Fijo en la pantalla */
+  width: 60px; /* Ancho del botón */
+  height: 60px; /* Alto del botón */
+  bottom: 60px; /* Distancia desde la parte inferior */
+  right: 10px; /* Distancia desde la parte derecha */
+  background-color: #25d366; /* Color de fondo de WhatsApp */
+  color: #fff; /* Color del icono */
+  border-radius: 50%; /* Forma circular */
+  text-align: center; /* Alineación del contenido */
+  font-size: 30px; /* Tamaño del icono */
+  z-index: 1000; /* Encima de otros elementos */
+  box-shadow: 2px 2px 5px #999; /* Sombra para resaltar */
+  display: flex; /* Flexbox para centrar */
+  align-items: center; /* Centrar verticalmente */
+  justify-content: center; /* Centrar horizontalmente */
+  transition: background-color 0.3s; /* Transición suave */
+}
+
+.whatsapp-float:hover {
+  background-color: #128c7e; /* Color de fondo al pasar el cursor */
+}
