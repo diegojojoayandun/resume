@@ -1366,3 +1366,162 @@ section {
   transform: scale(0.9); /* Efecto de presión */
   background-color: #075e54; /* Color temporal al hacer clic */
 }
+
+/* Estilos generales para el modo oscuro */
+body.dark-mode {
+  background-color: #121212; /* Fondo general oscuro */
+  color: #e0e0e0; /* Texto claro */
+}
+
+body.dark-mode a {
+  color: #bb86fc; /* Color de los enlaces */
+}
+
+body.dark-mode a:hover {
+  color: #ffffff; /* Color de enlaces al pasar el cursor */
+}
+
+/* Navbar y encabezado */
+body.dark-mode .navbar,
+body.dark-mode #header {
+  background-color: #1f1f1f; /* Fondo de la navbar y header */
+  border-bottom: 1px solid #333; /* Borde inferior */
+}
+
+body.dark-mode .navbar ul li a {
+  color: #e0e0e0; /* Texto de enlaces en la navbar */
+}
+
+body.dark-mode .navbar ul li a:hover {
+  color: #ffffff; /* Texto al pasar el cursor */
+}
+
+/* Iconos de navegación y botones */
+body.dark-mode .bi {
+  color: #bb86fc; /* Color de los iconos */
+}
+
+body.dark-mode .bi:hover {
+  color: #ffffff; /* Iconos al pasar el cursor */
+}
+
+/* Secciones del contenido */
+body.dark-mode .section-title h2,
+body.dark-mode .section-title p {
+  color: #ffffff; /* Títulos de sección y párrafos */
+}
+
+body.dark-mode .about,
+body.dark-mode .resume,
+body.dark-mode .portfolio,
+body.dark-mode .contact,
+body.dark-mode .skills {
+  background-color: #1e1e1e; /* Fondo de las secciones */
+  color: #e0e0e0; /* Texto en las secciones */
+}
+
+/* Sección del portafolio */
+body.dark-mode .portfolio-item {
+  background-color: #2a2a2a; /* Fondo de los items del portafolio */
+  color: #e0e0e0; /* Texto de los items del portafolio */
+}
+
+body.dark-mode .portfolio-item .portfolio-info {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Fondo transparente para información */
+}
+
+body.dark-mode .portfolio-lightbox {
+  color: #bb86fc; /* Iconos de lightbox */
+}
+
+/* Progreso de habilidades */
+body.dark-mode .progress {
+  background-color: #333; /* Fondo de barra de progreso */
+}
+
+body.dark-mode .progress-bar {
+  background-color: #bb86fc; /* Color de barra de progreso */
+}
+
+/* Botones */
+body.dark-mode .btn,
+body.dark-mode button {
+  background-color: #bb86fc; /* Fondo del botón */
+  color: #fff; /* Texto del botón */
+  border: none; /* Sin borde */
+}
+
+body.dark-mode .btn:hover,
+body.dark-mode button:hover {
+  background-color: #9a67ea; /* Fondo del botón al pasar el cursor */
+}
+
+/* Contacto */
+body.dark-mode .contact .info i {
+  color: #bb86fc; /* Color de iconos de contacto */
+}
+
+body.dark-mode .contact .php-email-form input,
+body.dark-mode .contact .php-email-form textarea {
+  background-color: #2a2a2a; /* Fondo de inputs */
+  color: #e0e0e0; /* Texto de inputs */
+  border: 1px solid #444; /* Borde de inputs */
+}
+
+body.dark-mode .contact .php-email-form input::placeholder,
+body.dark-mode .contact .php-email-form textarea::placeholder {
+  color: #aaa; /* Placeholder */
+}
+
+body.dark-mode .contact .php-email-form input:focus,
+body.dark-mode .contact .php-email-form textarea:focus {
+  border-color: #bb86fc; /* Borde al enfocar */
+}
+
+/* Footer */
+body.dark-mode #footer {
+  background-color: #1f1f1f; /* Fondo del footer */
+  color: #e0e0e0; /* Texto del footer */
+}
+
+body.dark-mode #footer a {
+  color: #bb86fc; /* Enlaces del footer */
+}
+
+body.dark-mode #footer a:hover {
+  color: #ffffff; /* Enlaces al pasar el cursor */
+}
+
+body.dark-mode #footer .social-links a {
+  color: #bb86fc; /* Iconos sociales del footer */
+}
+
+body.dark-mode #footer .social-links a:hover {
+  color: #ffffff; /* Iconos sociales al pasar el cursor */
+}
+
+/* Botón para volver al inicio */
+body.dark-mode .back-to-top {
+  background-color: #bb86fc; /* Fondo del botón de "volver arriba" */
+  color: #fff; /* Color del icono */
+}
+
+body.dark-mode .back-to-top:hover {
+  background-color: #9a67ea; /* Fondo del botón al pasar el cursor */
+}
+
+/* Otros ajustes */
+body.dark-mode .typed {
+  color: #bb86fc; /* Texto animado tipo "Typed" */
+}
+
+/* Animaciones de aparición */
+body.dark-mode [data-aos] {
+  transition: all 0.5s ease;
+  opacity: 1 !important; /* Asegura que la opacidad funcione correctamente */
+}
