@@ -314,10 +314,12 @@
 
   // ======= Aquí comienza la integración de EmailJS =======
 
-  // Inicializa EmailJS con tu User ID
-  emailjs.init("W_ewrph3nwO4Hu4uK"); // Reemplaza "TU_USER_ID" con tu User ID de EmailJS
+  const emailJsUserId = process.env.NEXT_PUBLIC_EMAILJS_USER_ID;
+  const emailJsServiceId = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID;
+  const emailJsTemplateId = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID;
 
-  console.log("dsdsdsdsd");
+  // Inicializa EmailJS con tu User ID
+  emailjs.init(emailJsUserId); // Reemplaza "TU_USER_ID" con tu User ID de EmailJS
 
   // Manejo del envío del formulario
   document.addEventListener("DOMContentLoaded", function () {
@@ -336,7 +338,7 @@
 
       // Usa EmailJS para enviar el formulario
       emailjs
-        .send("service_n2ufsh8", "template_h1xu4yz", formData) // Reemplaza con tus IDs
+        .send(emailJsServiceId, emailJsTemplateId, formData) // Reemplaza con tus IDs
         .then(
           function (response) {
             console.log("SUCCESS!", response.status, response.text);
