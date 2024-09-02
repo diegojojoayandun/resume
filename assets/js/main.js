@@ -5,6 +5,7 @@
  * Author: BootstrapMade.com
  * License: https://bootstrapmade.com/license/
  */
+
 (function () {
   "use strict";
 
@@ -310,4 +311,55 @@
       icon.classList.add("bx-sun");
     }
   });
+
+  // ======= Aquí comienza la integración de EmailJS =======
+
+  // Inicializa EmailJS con tu User ID
+  emailjs.init("W_ewrph3nwO4Hu4uK"); // Reemplaza "TU_USER_ID" con tu User ID de EmailJS
+
+  console.log("dsdsdsdsd");
+
+  // Manejo del envío del formulario
+  document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("contactForm");
+
+    form.addEventListener("submit", function (e) {
+      e.preventDefault(); // Prevenir la acción por defecto del formulario
+
+      // Obtén los valores de los campos del formulario
+      const formData = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        subject: document.getElementById("subject").value,
+        message: document.getElementById("message").value,
+      };
+
+      // Usa EmailJS para enviar el formulario
+      emailjs
+        .send("service_n2ufsh8", "template_h1xu4yz", formData) // Reemplaza con tus IDs
+        .then(
+          function (response) {
+            console.log("SUCCESS!", response.status, response.text);
+            Swal.fire({
+              title: "¡Envio Exitoso!",
+              text: "Se envío el correo exitosamente",
+              icon: "success",
+              confirmButtonText: "Aceptar",
+            });
+            form.reset(); // Limpiar el formulario
+          },
+          function (error) {
+            console.log("FAILED...", error);
+            Swal.fire({
+              title: "Error!",
+              text: "Se encontro un error al enviar el correo",
+              icon: "error",
+              confirmButtonText: "Aceptar",
+            });
+          }
+        );
+    });
+  });
+
+  // ======= Fin de la integración de EmailJS =======
 })();
