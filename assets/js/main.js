@@ -313,9 +313,8 @@
   });
 
   // ======= Aquí comienza la integración de EmailJS =======
-  const emailJsUserId = process.env.NEXT_PUBLIC_EMAILJS_USER_ID;
   // Inicializa EmailJS con tu User ID
-  emailjs.init(emailJsUserId); // Reemplaza "TU_USER_ID" con tu User ID de EmailJS
+  emailjs.init("W_ewrph3nwO4Hu4uK"); // Reemplaza "TU_USER_ID" con tu User ID de EmailJS
 
   // Manejo del envío del formulario
   document.addEventListener("DOMContentLoaded", function () {
